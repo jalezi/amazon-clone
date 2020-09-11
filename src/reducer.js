@@ -36,6 +36,9 @@ const reducer = (state, action) => {
     case 'SET_USER':
       return { ...state, user: action.user };
 
+    case 'MENU_BUTTON_CLICK':
+      return { ...state, open: !state.open };
+
     default:
       return state;
   }

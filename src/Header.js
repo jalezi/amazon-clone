@@ -5,6 +5,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { Link } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
+import MenuButton from './MenuButton';
 
 function Header() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -17,6 +18,7 @@ function Header() {
 
   return (
     <div className="header">
+      <MenuButton color="white" />
       <Link to={'/'}>
         <img
           className="header__logo"
