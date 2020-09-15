@@ -5,8 +5,6 @@ import { useStateValue } from './StateProvider';
 function MenuButton({ onClick }) {
   const [{ open = false }, dispatch] = useStateValue();
 
-  console.log(open);
-
   const handleClick = () => {
     dispatch({
       type: 'MENU_BUTTON_CLICK',
