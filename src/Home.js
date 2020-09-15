@@ -41,8 +41,7 @@ function Home() {
             title="Amazon Echo (3rd generation) Smart speaker with Alexa, Charcoal Fabric"
             price={98.99}
             rating={5}
-            image="https://media.very.co.uk/i/very/PGLTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
-            // image="https://m.media-amazon.com/images/G/01/kindle/dp/2019/8883495/Echo-Plus-125x85._CB451267559_.png"
+            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
           />
           <Product
             id="3254354345"
