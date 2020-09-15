@@ -67,3 +67,13 @@
   margin-right: 10px;
   color: white;
 }
+
+.header__nav > .header__option:not(:first-child) {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .header__nav > .header__option:not(:first-child) {
+    display: flex;
+  }
+}
